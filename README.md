@@ -21,4 +21,4 @@ npm start 	# start electron
 
 ## Screenshot
 
-![screenshot](/file-explorer/screenshot/screenshot.png)
+![screenshot](/screenshot/screenshot.png)
