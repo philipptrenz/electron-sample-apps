@@ -1,6 +1,6 @@
 # File Explorer
 
-A simple file explorer implemented with node.js modules, you can navigate through
+A simple file explorer implemented with Electron Framework and node.js modules, you can navigate through
 folders and open files.
 
 
