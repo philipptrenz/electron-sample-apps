@@ -1,29 +1,24 @@
-# Electron Sample Apps
+# File Explorer
 
-This repository contains Electron sample apps to illustrate the usage of
-[Electron APIs](https://github.com/electron/electron/tree/master/docs).
+A simple file explorer implemented with node.js modules, you can navigate through
+folders and open files.
 
-These sample apps are migrated from [nw-sample-apps](https://github.com/zcbenz/nw-sample-apps),
-[chrome-app-sample](https://github.com/GoogleChrome/chrome-app-samples) and
-[chromium extensions examples](https://code.google.com/p/chromium/codesearch#chromium/src/chrome/common/extensions/docs/examples/&sq=package:chromium&type=cs).
 
-All samples are test on Electron v1.6.11.
+## Run
 
-## How to run apps
+```
+npm i 		# install electron
+npm start 	# start electron
+```
 
-1. Install Electron via `npm install -g electron`.
+## APIs
 
-2. Run the sample via `electron <electron-sample-apps-path>/<sample-name>`.
+* [fs module](http://nodejs.org/api/fs.html)
+* [events module](http://nodejs.org/api/events.html)
+* [path module](http://nodejs.org/api/path.html)
+* [util module](http://nodejs.org/api/util.html)
+* [child_process module](http://nodejs.org/api/child_process.html)
 
-If you want to know more about Electron app's development, please refer to the
-[official docs](https://github.com/electron/electron/blob/master/docs/tutorial/quick-start.md).
+## Screenshot
 
-## License
-
-electron-sample-apps is published under the Apache v2 license. See `LICENSE` for details.
-
-## Donation
-
-If this project helps you out, you can give me a cup of coffee :)
-
-[![paypal](https://img.shields.io/badge/donate-paypal-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZVNVLSK6P6JRG)
+![screenshot](/file-explorer/screenshot/screenshot.png)

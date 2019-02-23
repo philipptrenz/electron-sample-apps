@@ -1,0 +1,14 @@
+{
+  "name": "photos-watermark",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
+  "devDependencies": {
+    "electron": "latest"
+  },
+  "dependencies": {
+    "jade": "latest"
+  }
+}
